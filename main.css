@@ -135,16 +135,21 @@ background-image: linear-gradient(137deg, #FEE140 0%, #FA709A 100%);
 
 a.button {
     border-radius: 5px;
-    border: 2px solid #fff;
-    background: #72e2fd;
+    border: none;
+    background-color: #FFE53B;
     display: inline;
     padding-left: 20px;
-    color: #fff;
+    color: rgb(44, 44, 44);
+    font-weight: 500;
     padding-right: 20px;
     padding: 15px;
     min-width: 200px;
     text-align: center;
     float: left;
+    -webkit-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+
 }
 
 .wrapper {
